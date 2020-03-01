@@ -9,6 +9,6 @@ public class IndexController {
 
     @GetMapping(value = "/")
     public Object getIndex(){
-        return "hoho?";
+        return "Counter!";
     }
 }
